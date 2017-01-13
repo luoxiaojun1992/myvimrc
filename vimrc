@@ -27,6 +27,9 @@ Plug 'fatih/vim-go'
 " Ag
 Plug 'rking/ag.vim'
 
+" Airline
+Plug 'vim-airline/vim-airline'
+
 " Add plugins to &runtimepath
 call plug#end()
 
