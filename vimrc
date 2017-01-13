@@ -26,3 +26,5 @@ Plug 'fatih/vim-go'
 
 " Add plugins to &runtimepath
 call plug#end()
+
+set nu
