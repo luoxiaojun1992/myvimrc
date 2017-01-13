@@ -27,9 +27,6 @@ Plug 'fatih/vim-go'
 " Ag
 Plug 'rking/ag.vim'
 
-"Ale
-Plug 'w0rp/ale'
-
 " Add plugins to &runtimepath
 call plug#end()
 
