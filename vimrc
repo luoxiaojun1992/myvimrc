@@ -24,6 +24,9 @@ Plug '~/my-prototype-plugin'
 " Vim Go
 Plug 'fatih/vim-go'
 
+" Ag
+Plug 'rking/ag.vim'
+
 " Add plugins to &runtimepath
 call plug#end()
 
