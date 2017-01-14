@@ -31,6 +31,8 @@ Plug 'rking/ag.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'php-vim/phpcd.vim', { 'for': 'php' , 'do': 'composer update' }
+
 let g:airline#extensions#tabline#enabled = 1
 
 " Add plugins to &runtimepath
