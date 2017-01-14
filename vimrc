@@ -35,6 +35,8 @@ Plug 'php-vim/phpcd.vim', { 'for': 'php' , 'do': 'composer update' }
 
 Plug 'Shougo/neocomplete.vim'
 
+Plug 'airblade/vim-gitgutter'
+
 let g:airline#extensions#tabline#enabled = 1
 let g:neocomplete#enable_at_startup = 1
 
