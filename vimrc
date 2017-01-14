@@ -33,7 +33,12 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'php-vim/phpcd.vim', { 'for': 'php' , 'do': 'composer update' }
 
+Plug 'Shougo/neocomplete.vim'
+
 let g:airline#extensions#tabline#enabled = 1
+let g:neocomplete#enable_at_startup = 1
+
+set encoding=utf8
 
 " Add plugins to &runtimepath
 call plug#end()
