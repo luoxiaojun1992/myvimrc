@@ -33,16 +33,42 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'php-vim/phpcd.vim', { 'for': 'php' , 'do': 'composer update' }
 
-Plug 'Shougo/neocomplete.vim'
-
 Plug 'airblade/vim-gitgutter'
 
-let g:airline#extensions#tabline#enabled = 1
 let g:neocomplete#enable_at_startup = 1
-
-set encoding=utf8
 
 " Add plugins to &runtimepath
 call plug#end()
 
+set encoding=utf8
 set nu
+
+" set air-line
+" set air-line default enabled
+let g:airline_powerline_fonts = 1
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+
+" unicode symbols
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+let g:airline_symbols.crypt = ''
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.maxlinenr = '☰'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.spell = 'Ꞩ'
+let g:airline_symbols.notexists = '∄'
+let g:airline_symbols.whitespace = 'Ξ'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+
+" set solarized
+let g:airline_theme = 'solarized'
+let g:solarized_termcolors=256
+" end set air-line
+
+" set noautoindent
+
